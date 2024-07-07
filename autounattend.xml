@@ -19,6 +19,7 @@
 			</UserData>
 			<RunSynchronous>
 				<!--Bypass Windows 11 System Requirements-->
+				<!-- 
 				<RunSynchronousCommand wcm:action="add">
 					<Order>1</Order>
 					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassTPMCheck /t REG_DWORD /d 1 /f</Path>
@@ -42,7 +43,8 @@
 				<RunSynchronousCommand wcm:action="add">
 					<Order>6</Order>
 					<Path>reg.exe add "HKLM\SYSTEM\Setup\LabConfig" /v BypassDiskCheck /t REG_DWORD /d 1 /f</Path>
-				</RunSynchronousCommand>
+				</RunSynchronousCommand> 
+				-->
 			</RunSynchronous>
 		</component>
 	</settings>
@@ -205,8 +207,6 @@
   ($_.Name -split '~')[0] -in @(
     'Browser.InternetExplorer';
     'MathRecognizer';
-    'OpenSSH.Client';
-    'Microsoft.Windows.PowerShell.ISE';
     'App.Support.QuickAssist';
     'App.StepsRecorder';
     'Microsoft.Windows.WordPad';
