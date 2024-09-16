@@ -1,13 +1,12 @@
-# winget-apps.ps1
+# Applications to install
+$apps = @(
+    'Microsoft.PowerShell',
+    'Brave.Brave',
+    'Microsoft.VisualStudioCode',
+    'Git.Git'
+)
 
-# Install PowerShell
-winget install --id=Microsoft.PowerShell --silent --accept-source-agreements --accept-package-agreements
-
-# Install Brave Browser
-winget install --id=Brave.Brave --silent --accept-source-agreements --accept-package-agreements
-
-# Install Visual Studio Code
-winget install --id=Microsoft.VisualStudioCode --silent --accept-source-agreements --accept-package-agreements
-
-# Install Git
-winget install --id=Git.Git --silent --accept-source-agreements --accept-package-agreements
+# Install each app using winget
+foreach ($app in $apps) {
+    winget install --id=$app --silent --accept-source-agreements --accept-package-agreements
+}
