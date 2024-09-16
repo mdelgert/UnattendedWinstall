@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\git_bash]
+@="Open Git Bash here"
+"Icon"="\"C:\\Program Files\\Git\\git-bash.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\git_bash\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\git_gui]
+@="Open Git GUI here"
+"Icon"="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\""
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\git_bash]
+@="Open Git Bash here"
+"Icon"="\"C:\\Program Files\\Git\\git-bash.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\git_bash\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\""
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\git_gui]
+@="Open Git GUI here"
+"Icon"="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\""
