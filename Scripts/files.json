@@ -1,13 +1,31 @@
 {
     "files": [
       {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/run-scripts.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/message-begin.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/message-end.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/winget-update.ps1"
+      },
+      {
         "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/winget-apps.ps1"
       },
       {
-        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/vscode-context-menu.reg"
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/vscode-context-menu-add.ps1"
       },
       {
-        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/git-context-menu.reg"
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/vscode-context-menu-remove.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/git-context-menu-add.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/git-context-menu-remove.ps1"
       }
     ]
   }
