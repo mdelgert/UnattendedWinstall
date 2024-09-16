@@ -1,0 +1,14 @@
+{
+    "files": [
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/winget-apps.ps1"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/vscode-context-menu.reg"
+      },
+      {
+        "path": "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/git-context-menu.reg"
+      }
+    ]
+  }
+  
