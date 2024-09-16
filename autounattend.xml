@@ -1258,6 +1258,7 @@ shutdown /r -t 1
 			xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"><LayoutOptions StartTileGroupCellWidth="6" /><DefaultLayoutOverride><StartLayoutCollection><StartLayout GroupCellWidth="6"xmlns="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" /></StartLayoutCollection></DefaultLayoutOverride></LayoutModificationTemplate>]]>
 		</File>
 		<File path="C:\Windows\Setup\Scripts\get-scripts.ps1">
+			<![CDATA[
 # URL to the JSON file
 $jsonUrl = "https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/main/Scripts/files.json"
 
@@ -1316,7 +1317,7 @@ try {
 }
 
 # Log the completion of the script
-Log-Message "Download process completed."
+Log-Message "Download process completed."]]>
 		</File>
 	</Extensions>
 </unattend>
