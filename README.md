@@ -1,3 +1,6 @@
+https://schneegans.de/windows/unattend-generator/
+https://schneegans.de/windows/unattend-generator/usage/
+
 # Memory’s Tech Tips’ Unattended Windows Installation
 
 ## Overview
