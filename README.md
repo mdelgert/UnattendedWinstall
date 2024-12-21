@@ -51,3 +51,6 @@ https://github.com/Romanitho/Winget-AutoUpdate
 
 # Get package id
 Get-StartApps | Where-Object { $_.Name -like "*Terminal*" }
+
+# Look into
+Export-StartLayout -Path "C:\Temp\LayoutModification.json"
