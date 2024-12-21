@@ -48,3 +48,6 @@ powershell.exe "irm https://raw.githubusercontent.com/mdelgert/UnattendedWinstal
 
 # Winget-AutoUpdate
 https://github.com/Romanitho/Winget-AutoUpdate
+
+# Get package id
+Get-StartApps | Where-Object { $_.Name -like "*Terminal*" }
