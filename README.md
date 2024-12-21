@@ -40,7 +40,8 @@ run netplwiz
 
 # Install winget
 https://www.tenforums.com/general-support/205725-i-need-script-silently-install-winget.html
+https://github.com/asheroto/winget-install/tree/master
 
 @echo off
-powershell.exe "irm https://raw.githubusercontent.com/asheroto/winget-installer/master/winget-install.ps1 | iex | Out-Null"
+powershell.exe "irm https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/refs/heads/main/Scripts/WingetInstall.ps1 | iex | Out-Null"
 %LOCALAPPDATA%\Microsoft\WindowsApps\winget.exe
