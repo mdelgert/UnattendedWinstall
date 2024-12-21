@@ -10,7 +10,8 @@ $apps = @(
 foreach ($app in $apps) {
     try {
         Write-Host "Uninstalling $app..." -ForegroundColor Cyan
-        winget uninstall --id=$app --silent --accept-source-agreements --accept-package-agreements
+        # Use winget uninstall command without invalid arguments
+        winget uninstall --id=$app --silent --exact
         if ($LASTEXITCODE -eq 0) {
             Write-Host "$app uninstalled successfully!" -ForegroundColor Green
         } else {
