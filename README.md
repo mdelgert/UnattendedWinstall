@@ -45,3 +45,6 @@ https://github.com/asheroto/winget-install/tree/master
 @echo off
 powershell.exe "irm https://raw.githubusercontent.com/mdelgert/UnattendedWinstall/refs/heads/main/Scripts/WingetInstall.ps1 | iex | Out-Null"
 %LOCALAPPDATA%\Microsoft\WindowsApps\winget.exe
+
+# Winget-AutoUpdate
+https://github.com/Romanitho/Winget-AutoUpdate
