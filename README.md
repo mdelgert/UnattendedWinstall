@@ -38,3 +38,9 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Passwor
 (Uncheck users must enter a password)
 run netplwiz
 
+# Install winget
+https://www.tenforums.com/general-support/205725-i-need-script-silently-install-winget.html
+
+@echo off
+powershell.exe "irm https://raw.githubusercontent.com/asheroto/winget-installer/master/winget-install.ps1 | iex | Out-Null"
+%LOCALAPPDATA%\Microsoft\WindowsApps\winget.exe
