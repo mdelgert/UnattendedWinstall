@@ -37,3 +37,4 @@ https://www.howtogeek.com/838506/how-to-sign-into-your-windows-11-pc-automatical
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\DevicePasswordLessBuildVersion
 (Uncheck users must enter a password)
 run netplwiz
+

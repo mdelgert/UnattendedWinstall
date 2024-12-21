@@ -2,8 +2,7 @@
 $apps = @(
     'Microsoft.PowerShell',
     'Brave.Brave',
-    'Git.Git',
-    'Microsoft.VisualStudioCode'
+    'Git.Git'
 )
 
 # Install each app using winget
