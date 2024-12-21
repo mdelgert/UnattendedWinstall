@@ -1,3 +1,9 @@
+# Setup
+```PS
+git clone https://github.com/mdelgert/UnattendedWinstall
+winget install PowerSoftware.AnyBurn
+```
+
 # Links
 https://schneegans.de/windows/unattend-generator/
 https://schneegans.de/windows/unattend-generator/usage/
