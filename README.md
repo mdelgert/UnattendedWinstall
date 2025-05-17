@@ -7,6 +7,8 @@ winget install PowerSoftware.AnyBurn
 # Links
 https://schneegans.de/windows/unattend-generator/
 https://schneegans.de/windows/unattend-generator/usage/
+https://github.com/Raphire/Win11Debloat?tab=readme-ov-file
+https://github.com/ChrisTitusTech/winutil
 
 # Based on
 https://github.com/memstechtips/UnattendedWinstall
